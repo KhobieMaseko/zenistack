@@ -954,7 +954,7 @@ export default function App() {
             private, all fast. If ZeniStack saves you time, tell a friend 😉
           </p>
           <a
-            href="https://buymeacoffee.com/your-username"
+            href="https://ko-fi.com/zenikhontech"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs font-semibold border border-yellow-500/30 text-yellow-400 bg-yellow-500/5 hover:bg-yellow-500/10 px-4 py-2 rounded-xl transition-all hover:scale-105"

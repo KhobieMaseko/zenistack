@@ -19,7 +19,6 @@
 - [Tech Stack](#tech-stack)
 - [Privacy Model](#privacy-model)
 - [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)
 - [Deployment](#deployment)
 - [SEO & Analytics](#seo--analytics)
@@ -168,76 +167,6 @@ zenistack/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org) v18 or higher
-- npm v9 or higher (comes with Node.js)
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/zenistack.git
-
-# 2. Enter the project directory
-cd zenistack
-
-# 3. Install dependencies
-npm install
-
-# 4. Start the development server
-npm run dev
-```
-
-The development server starts at `http://localhost:5173`. The page hot-reloads automatically when you save changes.
-
----
-
-## Available Scripts
-
-| Command | Description |
-|---|---|
-| `npm run dev` | Start local development server at `localhost:5173` |
-| `npm run build` | Build optimised production bundle into `/dist` |
-| `npm run preview` | Preview the production build locally before deploying |
-
----
-
-## Deployment
-
-ZeniStack is deployed on [Vercel](https://vercel.com) using their free Hobby tier. Vercel auto-detects the Vite framework and requires zero configuration.
-
-### Deploy your own instance
-
-1. Fork this repository on GitHub
-2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-3. Click **Add New Project** and import your forked repository
-4. Leave all settings at their defaults (Vercel auto-detects Vite)
-5. Click **Deploy**
-
-Every subsequent `git push` to the `main` branch triggers an automatic redeploy. No manual steps required.
-
-### After deploying
-
-Once your site is live, update the following five placeholders in `index.html` with your actual domain:
-
-```html
-<link rel="canonical" href="https://your-domain.com" />
-<meta property="og:url" content="https://your-domain.com" />
-<meta property="og:image" content="https://your-domain.com/zenistack-favicon-512.png" />
-<meta name="twitter:image" content="https://your-domain.com/zenistack-favicon-512.png" />
-```
-
-And in the JSON-LD structured data block:
-
-```json
-"url": "https://your-domain.com"
-```
-
----
-
 ## SEO & Analytics
 
 ### SEO
@@ -262,12 +191,11 @@ Visible on-page SEO keyword strip (rendered as real DOM text, not hidden):
 
 ### Google Analytics
 
-Tool usage is tracked via anonymised GA4 events. To enable analytics on your own deployment:
+Tool usage is tracked via anonymised GA4 events. I used the following:
 
-1. Create a GA4 property at [analytics.google.com](https://analytics.google.com)
-2. Copy your Measurement ID (`G-XXXXXXXXXX`)
-3. Add the GA4 script tags to `index.html` (see the inline comments in the file)
-4. Replace `G-XXXXXXXXXX` with your real Measurement ID in both script tags
+1. Created a GA4 property at [analytics.google.com](https://analytics.google.com)
+2. Copied a Measurement ID (`G-XXXXXXXXXX`)
+3. Added the GA4 script tags to `index.html` (see the inline comments in the file)
 
 Events fired:
 
@@ -359,9 +287,9 @@ git push origin feature/your-feature-name
 **Zenikhon Tech**
 
 - Website: [zenistack.vercel.app](https://zenistack.vercel.app)
-- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+- GitHub: [@YOUR-USERNAME](https://github.com/KhobieMaseko/zenistack/)
 
-ZeniStack was designed, built, and is maintained by Zenikhon Tech as a free public utility. If it saves you time, consider sharing it or [buying a coffee](https://buymeacoffee.com/your-username) to support continued development.
+ZeniStack was designed, built, and is maintained by Zenikhon Tech as a free public utility. If it saves you time, consider sharing it or [buying a coffee](https://ko-fi.com/zenikhontech) to support continued development.
 
 ---
 

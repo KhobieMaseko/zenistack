@@ -287,7 +287,7 @@ git push origin feature/your-feature-name
 **Zenikhon Tech**
 
 - Website: [zenistack.vercel.app](https://zenistack.vercel.app)
-- GitHub: [@YOUR-USERNAME](https://github.com/KhobieMaseko/zenistack/)
+- GitHub: [This Page](https://github.com/KhobieMaseko/zenistack/)
 
 ZeniStack was designed, built, and is maintained by Zenikhon Tech as a free public utility. If it saves you time, consider sharing it or [buying a coffee](https://ko-fi.com/zenikhontech) to support continued development.
 
